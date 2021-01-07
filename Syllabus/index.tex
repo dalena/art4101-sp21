@@ -1,0 +1,406 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+
+ 
+\documentclass[12pt,letter,english]{report}
+\usepackage[margin=.5in]{geometry}
+\usepackage{tabularx}
+
+\usepackage{longtable}
+\usepackage{booktabs}
+
+\usepackage{soul}
+\usepackage{fontspec}
+\setmainfont{Arial Narrow}
+% \usepackage[T1]{fontenc}
+% \usepackage[sfdefault]{merriweather}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp} % euro and other sybols
+\usepackage{parskip}
+
+\usepackage{xcolor}
+\usepackage{pagecolor,lipsum}
+\usepackage{sectsty}
+\definecolor{hl}{HTML}{00ffff}
+\definecolor{bg}{HTML}{F5F5F4}
+\definecolor{link}{HTML}{F5F5F4}
+\chapterfont{\color{cyan!80!black}}
+\sectionfont{\color{black!80!black}} 
+\sethlcolor{hl}
+\pagecolor{bg}
+
+% \subsectionfont{\color{red!80!black}} 
+\usepackage{xurl}
+\usepackage{bookmark}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+      colorlinks=true,
+      linkcolor={magenta!50!black},
+      citecolor={magenta!50!black},
+      urlcolor={magenta}
+}
+
+
+\usepackage[normalem]{ulem}
+ 
+\pdfstringdefDisableCommands{\renewcommand{\sout}{}}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}%
+}
+
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setlength{\parindent}{0pt}
+\newcommand{\forceindent}{\leavevmode{\parindent=2em\indent}}
+\setlength{\parskip}{1em}
+\hyphenpenalty=10000
+% \sloppy
+
+\def\courseTitle{\hl{ART 4101: Moving Image Art}} 
+\def\courseNumber{ART 4101} 
+\def\courseSemester{Autumn 2020}
+\def\courseTime{Tue/Thur 3:55-6:40pm}
+\def\courseLocation{Hopkins Hall 156} 
+\def\instructor{Dalena Tran}
+\def\emailURL{dalena@osu.com}
+\def\instructorEmail{\href{mailto:\emailURL}{{\emailURL}}}
+\def\zoomURL{TBA}
+\def\zoomText{\href{\#}{{Zoom Link TBA}}}
+\def\discordURL{}
+\def\discordText{\href{\discordURL}{{Course Discord Server}}}
+
+
+\def\institution{OSU}
+
+\begin{document}
+
+\section*{\courseTitle}
+
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+      \textbf{\courseNumber}    & \courseSemester                  \\
+      \textbf{Days \& Time}     & \courseTime                      \\
+      \textbf{Location}         & \courseLocation                  \\
+      \textbf{Virtual Meetings} & \zoomText                        \\
+      \textbf{Instructor}       & \instructor --- \instructorEmail \\
+      \textbf{Office Hours}     & By appointment (\zoomText)       \\
+      \textbf{Communication}    & \discordText                     \\
+\end{tabularx}
+
+\subsection{Course Overview}
+
+This studio course critically engages with moving images. We will generate, manipulate, and animate digital imagery into durative, artistic projects. To develop a broader context around moving images, we will watch, read, create, critique, and discuss. We will screen time-based works and study a collection of texts in relationship to historical, contemporary, and experimental uses of time-based, digital media. 
+
+The developments in digital imaging, computer simulation, and animation has shifted notions of cinema and techniques of film/artmaking into ever-evolving forms. In the beginning of this course, we will create a constellation of short, experimental assignments and projects that aim to familiarize our art practices with various media, software, techniques, contexts, and implications of animated computer imaging. The later duration of this course is aimed at synthesizing the relevant technical and creative skills learned throughout the course into a self-directed, final project. Final works will be publicly exhibited at the end of the quarter. 
+
+Experimentation with media, non-traditional tools, platforms, and methods are encouraged.
+
+
+\subsection{Learning Goals}
+
+\begin{itemize}
+      \tightlist
+      \item[$-$] Create original art using digital imaging, computer animation, and sequencing tools such as Blender, Davinci Resolve/Adobe Premiere, and After Effects.
+      \item[$-$] Principles of editing, compositing, color manipulation, 2D \& 3D animation, computer simulation, duration, encoding, video performance, machinima, and montage.
+      \item[$-$] Develop a dynamic relationship between strategy and experimentation with moving image concepts and tools
+      \item[$-$] Engage with critical discourse around moving images through class screenings, readings, assignments, and critiques
+      \item[$-$] Encourage work with emerging media and technology
+      \item[$-$] Develop a critical understanding of media and technology in your art practice
+      \item[$-$] Use of technology for the purposes of social, critical, speculative, and artistic exploration
+      \item[$-$] Relevant vocabulary and jargon that enables advanced, self-directed studies and practice in related fields 
+      \item[$-$] Means of exhibition and dissemination of moving image art through screenings, installation, online circulation, \& online exhibtion.
+\end{itemize}
+
+\subsection{Health and Safety Requirements}
+
+All students, faculty and staff are required to comply with and stay up to date on all \href{https://safeandhealthy.osu.edu}{university safety and health guidance}, which includes wearing a face mask in any indoor space and maintaining a safe physical distance at all times. Non-compliance will be warned first and disciplinary actions will be taken for repeated offenses.
+
+\subsection{Format \& Delivery}
+
+This is a hands-on, process-oriented studio. It is comprised of presentations, assignments, participatory activities and exercises, individual and group discussions, and reviews. This course is \hl{hybrid or in-person}. Synchronous Zoom meetings will be used for the introduction of assignments, some demonstrations, breakout group meetings, and group critique discussions. Other activities such as working on assignments and exercises, viewing videos, and reading assignments will be executed synchronously and asynchronously. In-person activities will include demonstrations, presentations, group exercises, and critiques. Weekly announcements will serve to inform when activities will take place.
+
+\paragraph{Departmental Note:} A hybrid course provides online learning opportunities for up to 74\% of the semester. That means that up to three-fourths of your in-class meeting time may occur at a distance with the expectation that your full attention will be given to this course during the scheduled two hour and forty minute long meeting times, regardless if you are meeting physically or otherwise.
+
+\subsection{Attendance}
+
+Each unexcused absence (beyong the allowed three) will result in one full letter grade deduction (e.g. B+ to C+). Six unexcused absences (20\% of the semester) results in a failed grade. If there is an emergency and you must miss class, contact us beforehand. Absences will not be excused after the fact except in extreme circumstances. Illness requires a doctor’s note. If you are more than 10 minutes late, you will be marked tardy. Three tardies result in one unexcused absence. Any disputes should be discussed within two weeks.
+
+\paragraph{Departmental Note:} The Department of Art acknowledges that illness, family obligations, and other conflicts with your classes do occur from time to time and up to three absences are allowed for any reason during the semester without penalty. \ul{All absences from class will be counted, however, and in the instance that you miss three class meetings, you are required to meet us to discuss strategies for avoiding additional absences}.
+
+\paragraph{Departmental Note:} It has been determined that some in-person learning is necessary for you to successfully engage your instructor and peers, course activities, and to meet learning objectives. Timely and consistent contributions are critical in all formats used to deliver the content of this course. In the instance of class-wide quarantine or campus closure, a course contingency plan has been designed so that we can transition to an exclusively on-line format if we are required to actuate one. \ul{Attendance will be taken regardless of delivery format.}
+
+
+\subsection{Participation}
+
+Attendance, productive class activity and meeting in-progress deadlines are factors in the assessment of your progress. You are expected to be present and active for the entire class period. Participation is critical to passing and enjoying this class. Do the work, share your thoughts, ask questions, prepare for class meetings and discussions, offer feedback during critiques. This class is meant to be a safe space in which you feel encouraged and supported in learning and taking creative risks. This means being aware and considerate of different backgrounds, perspectives, and identities. Respect each other and this space we are building together. Don’t assume, ask. Remain open, be willing to take responsibility, apologize, and learn. Help each other in this. If you have concerns, please let us know.
+
+% \subsection{Communication}\label{ssec:communication}
+\hypertarget{communication}{%
+      \subsection{Communication}\label{communication}}
+
+\href{http://discordapp.com/}{Discord} is used as our primary mode of communication. You are required to signup for an account, join our \href{https://discord.gg/urXaaaY}{server}, and keep up to date with announcements and group discussions. Discord is also used to organize resources, readings, screenings, and learning materials. Here, you will also submit your assignments.
+
+\subsection{Discord Server Interaction}
+Ongoing weekly discussions and participation in the Discord server is required. We will use Discord to gather and share resources, respond to readings and peers' works, and to share your work in progress.
+
+Each week should feature at least:
+\begin{itemize}
+      \tightlist
+      \item[$-$] Link to your exercise/project with a short description of your learning process, concept, challenges, and triumphs. This way your work is contextualized for your peers in relation to your creative inputs and the readings.
+      \item[$-$] Respond to at least two of your peers' exercises and project submissions.
+\end{itemize}
+
+\subsection{Readings \& Discussions}
+
+During the quarter, you will be assigned readings on a variety of topics. The readings are intended to familiarize you with some of the relevant discussions that relate to the field. We will discuss our findings and thoughts with our peers in class. Your participation in these discussions matters. The discussions serve as a dialectical engagement to learn from one another and explore the readings in conversation. Moreover, the readings serve as a foundation for discussing the screenings, which are purposefully picked to convey some of the ideas from the readings in practice.
+
+\subsection{Projects}
+
+Projects are due at the start of class on the date assigned. Projects may be turned in up to one week late for a one letter grade deduction off the project grade. Work that is more than one week late will not be accepted. If you are absent, you are still expected to turn in projects online by the deadline. Extra time will not be given for work lost due to save issues, software errors, computer crash, etc. You should regularly backup your files on your desktop, online, and/or on an external harddrive or USB stick in case your computer is lost.
+
+\subsection{Grading}
+
+There are 100 possible points, distributed across participation, attendance, exercises, and projects. Individual works will be assessed according to assignment objectives, effort and quality of in-class and online or distance activities, vigor of exploration and research initiative, participation in reviews and discussions, and ability to adapt.
+
+\hspace*{1em} Participation \& Discord Interaction: 15 pts\\
+\hspace*{1em} Ecercises: 15 pts\\
+\hspace*{1em} Project 1: 20 pts\\
+\hspace*{1em} Project 2: 20 pts\\
+\hspace*{1em} \ul{Project 3: 30 pts}\\
+\hspace*{1em} Total: 100 pts
+
+\subsection{Late Assignments}
+
+If you miss deadlines due to valid, extenuating circumstances you may submit the required work at a date agreed upon with us. Please contact us to discuss modifying the deadline prior to the original deadline.
+
+\subsection{Grading Scale}
+
+\begin{tabularx}{\textwidth}{@{}l @{}l X@{}}
+      A \hspace*{1em} & (93--100) & Work, initiative, and participation of exceptional quality             \\
+      A-              & (90--92)  & Work, initiative and participation of very high quality                \\
+      B+              & (87--89)  & Work, initiative and participation of high quality                     \\
+      B               & (83--86)  & Very good work, initiative and participation                           \\
+      B-              & (80--82)  & Slightly above average work, initiative and participation              \\
+      C+              & (77--79)  & Average work, initiative and participation                             \\
+      C               & (73--76)  & Adequate work; less than average level of initiative and participation \\
+      C-              & (70--72)  & Passing but below good academic standing; less than average level      \\
+      D+              & (67--69)  & Below average work, initiative and participation                       \\
+      D               & (60--66)  & Well below average work, initiative and participation                  \\
+      E               & (59.9--0) & Unsuccessful completion of work. Limited or no participation.
+\end{tabularx}
+
+\subsection{Course Materials and Tools}
+
+Our course heavily relies on free, open-source, and libre software. Throughout the semester we will explore modeling, rendering, and fabrication using \href{http://blender.org/}{Blender}, \href{https://alicevision.org/#meshroom}{Meshroom}, \href{https://ultimaker.com/software/ultimaker-cura}{Cura}, \href{http://meshlab.net}{MeshLab}, and \href{https://unity.com/}{Unity}. Blender provides a powerful arsenal of tools that enables advanced 2D and 3D exploration, video editing, and compositing among others. Unity is a game engine using which we will construct a virtual sculptural gallery for online viewing and exhibition. We will use Cura and MeshLab for rapid prototyping (3D printing) and fabrication preparation.
+
+You are required to signup for an account on \href{http://sketchfab.com}{Sketchfab}, an online 3D model sharing platform. Here you will post your 3D models for assessment and dissemination among your peers. Sketchfab is also used as an AR platform for exercises and projects.
+
+\href{http://discordapp.com/}{Discord} is used as our primary mode of communication. You are required to signup for an account, join our \href{https://discord.gg/urXaaaY}{server}, and keep up to date with announcements and group discussions. Discord is also used to organize resources, readings, screenings, and learning materials. Here, you will also submit your assignments.
+
+All required readings and screenings will be posted on our Discord server. There is no required book for this class. We will coordinate and discuss with the department the possibilitites of obtaining raw materials for fabrication, CNC milling, and laser cutting. However, given our current post-COVID reality, this course is structured such that physical fabrication and virtual exhibition using AR and VR are interchangable.
+
+\textbf{This course requires a 3-button mouse (left, right, clickable wheel) and a computer \href{https://www.blender.org/download/requirements/}{capable} of running Blender.}
+
+\subsection{Course Technology}
+
+\begin{itemize}
+      \tightlist
+      \item[$-$] Basic computer and web-browsing skills
+      \item[$-$] \href{https://lmgtfy.com/}{Let Me Google That For You}
+      \item[$-$] Navigating Carmen: for questions about specific functionality, see the \href{https://community.canvaslms.com/docs/DOC-10701}{Canvas Student Guide}.
+      \item[$-$] \href{https://go.osu.edu/Bqdx}{CarmenZoom Virtrual Meetings}
+\end{itemize}
+
+\subsection{Required Equipment}
+
+\begin{itemize}
+      \tightlist
+      \item[$-$] Computer: OS X, Windows 7+, or Linux with internet connection for CarmenZoom\\
+      Recommended Hardware: 
+            \begin{itemize}
+                  \item[$-$] 64-bit quad core CPU
+                  \item[$-$] 16 GB RAM
+                  \item[$-$] Full HD display
+                  \item[$-$] \textbf{3-button mouse}
+                  \item[$-$] Drawing tablet
+                  \item[$-$] Graphics card with 4 GB RAM
+            \end{itemize}
+      \item[$-$] Webcam
+      \item[$-$] Microphone
+      \item[$-$] A mobile device (smartphone or tablet) or landline to use for BuckeyePass authentication
+\end{itemize}
+
+\section{Schedule}
+Week 1 \\
+\forceindent Tu Aug 25 : ORIENTATION \\
+\forceindent \forceindent Introductions & Discussions (45 min)\\
+\forceindent \forceindent Syllabus Overview (45 min)\\
+\forceindent \forceindent Logistics & Communication (30 min)\\
+\forceindent \forceindent Logistics & Communication (30 min)\\
+
+\section{Departmental Notes \& College Policies}
+\subsection{Carmen Access}
+
+You will need to use \href{https://buckeyepass.osu.edu/}{BuckeyePass} multi-factor authentication to access your courses in Carmen. To ensure that you are able to connect to Carmen at all times, it is recommended that you take the following steps:
+
+\begin{itemize}
+      \item[$-$]
+            Register multiple devices in case something happens to your primary device. Visit the \href{https://osuitsm.service-now.com/selfservice/kb_view.do?sysparm_article=kb05025}{BuckeyePass - Adding a Device} help article for step-by-step instructions.
+      \item[$-$]
+            Request passcodes to keep as a backup authentication option. When you see the Duo login screen on your computer, click \textbf{Enter a Passcode} and then click the \textbf{Text me new codes} button that appears. This will text you ten passcodes good for 365 days that can each be used once.
+      \item[$-$]
+            Download the \href{https://osuitsm.service-now.com/selfservice/kb_view.do?sysparm_article=kb05026}{Duo Mobile application} to all of your registered devices for the ability to generate one-time codes in the event that you lose cell, data, or Wi-Fi service.
+\end{itemize}
+
+For help with your password, university email, Carmen, or any other technology issues, questions, or requests, contact the Ohio State IT Service Desk. Standard support hours are available at~\href{https://ocio.osu.edu/help/hours}{ocio.osu.edu/help/hours},~and support for urgent issues is available 24/7.
+
+\begin{itemize}
+      \tightlist
+      \item[$-$]
+            \textbf{Self-Service and Chat support:}~\href{http://ocio.osu.edu/help}{ocio.osu.edu/help}
+      \item[$-$]
+            \textbf{Phone:} \href{tel:6146884357}{614-688-HELP}
+      \item[$-$]
+            \textbf{Email:}~\href{mailto:8help@osu.edu}{servicedesk@osu.edu}
+      \item[$-$]
+            \textbf{TDD:} \href{tel:6146888743}{614-688-8743}
+\end{itemize}
+
+\subsection{Accessibility of course technologies}
+
+This online course requires use of Carmen (Ohio State's learning management system) and other online communication and multimedia tools. If you need additional services to use these technologies, please request accommodations with your instructor.~
+
+\begin{itemize}
+      \tightlist
+      \item[$-$] \href{https://community.canvaslms.com/docs/DOC-2061}{Carmen Canvas Accessibility}
+      \item[$-$] \href{https://go.osu.edu/Bqd4}{CarmenZoom Accessibility}
+\end{itemize}
+
+\subsection{Feedback and Response Time}
+
+Project grading and feedback can generally be expected within 2 weeks.
+
+You can expect a reply to emails within 24-36 hours Monday--Friday, but no response should be expected between 5pm and 8am.
+
+\subsection{Carmen}
+
+\sout{Carmen (\href{http://carmen.osu.edu/}{carmen.osu.edu}) is used for general communication through announcements. Carmen is where assignment information, sharing ideas and work, collaborative engagement and assignment development, grades and feedback, readings, and general course content components are posted.}\\
+\textbf{Not applicable to our course. Refer to \hyperlink{communication}{Communication} section.}
+
+\subsection{Email}
+
+\sout{Email through Carmen's inbox function or through your BuckeyeMail will be the only source of private and secure digital conversations we will use with you. Secure information on general concerns, assignments, class inquiries, or other similar topics should be addressed using these sources.}\\
+\textbf{Not applicable to our course. Refer to \hyperlink{communication}{Communication} section.}
+
+\sout{All university correspondence is sent to your BuckeyeMail email address, and all email sent to faculty and staff should be sent from your BuckeyeMail email address.}\\
+\textbf{Not applicable to our course. Refer to \hyperlink{communication}{Communication} section.}
+
+Ohio State will never ask for your Ohio State username or password. Do not reply to any email asking for your Ohio State username, password, or other personal information. Report such messages to \href{about:blank}{report-phish@osu.edu}.
+
+\subsection{PPE and Related College Covid Policies}
+
+Safe campus requirements include but are not limited to wearing masks, hand hygiene, physical distancing, health symptom monitoring, participating in contact tracing, quarantine and isolation, and additional safety expectations detailed at \href{safeandhealthy.osu.edu}{safeandhealthy.osu.edu}. All Ohio State students, faculty and staff are expected to meet the behavioral and safety expectations under the Safe Campus Requirements when they physically participate in any university activity, on or off campus. All students, faculty and staff also will be required to perform a daily health check to report body temperature each day they intend to be physically on an Ohio State campus. Failure to adhere to these requirements will be addressed through standard enforcement mechanisms, and an approach built on escalation, whereby adherence will be reinforced through education, choice and peer support before escalating to disciplinary action whenever possible. Where violations are serious and/or ongoing, however, they will be addressed as follows:
+
+\begin{itemize}
+      \item[$-$]
+            A student and/or student organization will be referred for disciplinary action where the student and/or student organization's behavior endangers the health or safety of campus community members, on or off campus, and/or fails to comply with the directives outlined in the Safe Campus Requirements. o During an incident in which a student is not adhering, the student should first be asked to comply (e.g., to wear a mask). If this does not resolve the situation, the student should be reminded about safe and healthy requirements. If the student continues to refuse, the student should be told to leave the location and not to return until they are prepared to follow the requirements.
+      \item[$-$]
+            For all situations, except those students who quickly comply when reminded, the incident should be reported to the Office of Student Life Student Conduct for potential disciplinary action and to assist with appropriate tracking. Even if the student's name is unknown, a report to Student Conduct should be made to assist the university in evaluating adherence efforts; however, it should be acknowledged that Student Conduct will be unable to take disciplinary action without identifying information.
+      \item[$-$] Read more about campus safety policies on \href{https://safeandhealthy.osu.edu/sites/default/files/2020/07/safe_and_healthy_campus_expectations_accountability_measures_7.24.2020_website.pdf?utm_campaign=oaa_faculty-staff-awareness_fy21_covid-academic-update-072720&utm_medium=email&utm_source=EOACLK}{Safe and Healthy Campus Expectations and Accountability Measures}
+\end{itemize}
+
+\subsection{COVID-19-Related Attendance Concerns and Planned Course Modifications}
+
+Students unable to attend class because of positive diagnosis, symptoms, or required quarantine due to exposure will transition course activities to distance learning to the extent that they are able during periods of mandated absence. Students will work with instructors to confirm their ability to participate or alternative learning activities related to course objectives and assignments will be provided.
+
+If an entire class is required to quarantine, instruction will transition to online interactions and learning at a distance will occur. All university standards and policies remain in place as related to Title IX, academic misconduct, allowances for students with disabilities, studio conduct and respect for others, and other related issues. We will be meeting and interacting in an online format, not an anonymous one. We will conduct ourselves and treat others as if we are meeting in person.
+
+
+If the university suspends in-person classes, this course will transition to an online delivery mode for the remainder of the semester.
+
+If an instructor is unable to attend class in person because of positive COVID-19 diagnosis, symptoms, or required quarantine, a substitute instructor may be assigned to ensure course continuity. If the instructor is able, the course may transition to an online delivery mode temporarily.
+
+\subsection{Academic Misconduct}
+
+It is the responsibility of the Committee on Academic Misconduct to investigate or establish procedures for the investigation of all reported cases of student academic misconduct. The term ``academic misconduct'' includes all forms of student academic misconduct wherever committed; illustrated by, but not limited to, cases of plagiarism and dishonest practices in connection with examinations and artwork created in studio courses. Instructors shall report all instances of alleged academic misconduct to the committee (Faculty Rule 3335-5-487). For additional information, see the \href{https://studentconduct.osu.edu/for-students/understanding-the-student-conduct-process/}{Code of Student Conduct}
+
+The Department of Art adheres to all aspects of this Code of Conduct especially in matters relating to the following: Academic Misconduct, Endangering Health or Safety, Sexual Misconduct, Destruction of Property, and Theft/Unauthorized Use of Property.
+
+\subsection{Reusing Past Work}
+
+In general, you are prohibited in university courses from turning in work from a past class to your current class, even if you modify it. If you want to build on past research or revisit a topic explored in previous courses, please discuss the situation with your instructor at the start of the assignment/project.
+
+\subsection{Citing Your Sources}
+
+Cite your sources to back up what you say and write. (Use a citation generator if you are unsure of the proper citation format.) If you use a photograph or are particularly inspired by another work and wish to include, mimic, or apply any part of it to your work, cite it. We will discuss precedent usage and appropriation in class. While precedent usage is expected to inspire new iterations and build skills, you are expected to credit your sources and work to distinct and individual challenge solutions.
+
+\subsection{Disability Services}
+
+The University strives to make all learning experiences as accessible as possible. If you anticipate or experience academic barriers based on your disability (including mental health, chronic or temporary medical conditions), please let us know immediately so that we can privately discuss options. To establish reasonable accommodations, we may request that you register with Student Life Disability Services. After registration, make arrangements with us as soon as possible to discuss your accommodations so that they may be implemented in a timely fashion. Fore more information contact the SLDS office.
+
+\begin{itemize}
+      \tightlist
+      \item[$-$] \textbf{Email:} \href{mailto:slds@osu.edu}{slds@osu.edu}
+      \item[$-$] \textbf{Website:} \href{http://www.ods.ohio-state.edu/}{slds.osu.edu}
+      \item[$-$] \textbf{Phone:} \href{tel:6142923307}{614-292-3307}
+      \item[$-$] \textbf{Address:} 098 Baker Hall\\%
+            \hspace*{4.8em}113 W. 12th Ave\\%
+            \hspace*{4.8em}Columbus, OH 43210
+\end{itemize}
+
+
+
+
+\subsection{Accommodations}
+
+In-person classes (as well as the in-person components of hybrid classes) are expected to make \emph{reasonable accommodations} for students who are unable to be safely present in the classroom \emph{and} have been approved for an accommodation by the office of Student Life Disability Services (SLDS). For a lecture course, such an accommodation might mean streaming lectures on Zoom or making recordings available to the students. For classes that involve laboratory work, studio work, or a mix of lecture and discussion, a reasonable accommodation will not always be possible. Students are expected to work with their advisors and, where appropriate, SLDS to find workable solutions to their scheduling needs.
+
+\subsection{Grade Forgiveness}
+
+The Grade Forgiveness Rule allows undergraduate students to petition to repeat up to three courses. The grade in the repeated course will permanently replace the original grade for the course in the calculation of the student's cumulative GPA.
+
+Only a first repeat can be used this way; all other repeats of the same course will be included under the general course repeatability rule.
+
+The original grade will remain on the student's transcript and some graduate/professional school admission processes will re-calculate the student's GPA to include the original grade. See: \href{https://advising.osu.edu/grade-forgiveness-0}{Grade Forgiveness} for more information.
+
+\subsection{Diversity}
+
+The Ohio State University affirms the importance and value of diversity in the student body. Our programs and curricula reflect our multicultural society and global economy and seek to provide opportunities for students to learn more about persons who are different from them. We are committed to maintaining a community that recognizes and values the inherent worth and dignity of every person; fosters sensitivity, understanding, and mutual respect among each member of our community; and encourages each individual to strive to reach \sout{his or her} their own potential. Discrimination against any individual based upon protected status, which is defined as age, color, disability, gender identity or expression, national origin, race, religion, sex, sexual orientation, or veteran status, is prohibited.
+
+\subsection{Sexual Misconduct/Relationship Violence}
+
+Title IX makes it clear that violence and harassment based on sex and gender are Civil Rights offenses subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories (e.g., race). If you or someone you know has been sexually harassed or assaulted, you may find the appropriate resources at \href{http://titleix.osu.edu/}{http://titleix.osu.edu} or by contacting the Ohio State Title IX Coordinator, Kellie Brennan, at \href{mailto:titleix@osu.edu}{titleix@osu.edu}
+
+\subsection{Mental Health Services}
+
+As a student you may experience a range of issues that can cause barriers to learning, such as strained relationships, increased anxiety, alcohol/drug problems, feeling down, difficulty concentrating and/or lack of motivation. These mental health concerns or stressful events may lead to diminished academic performance or reduce a student's ability to participate in daily activities. The Ohio State University offers services to assist you with addressing these and other concerns you may be experiencing. If you or someone you know are suffering from any of the aforementioned conditions, you can learn more about the broad range of confidential mental health services available on campus via the Office of Student Life's Counseling and Consultation Service (CCS) by visiting \href{http://ccs.osu.edu/}{ccs.osu.edu} or calling \href{tel:614­2925766}{614­-292-­5766}. CCS is located on the 4th Floor of the Younkin Success Center and 10th Floor of Lincoln Tower. You can reach an on call counselor when CCS is closed at \href{tel:614­292-5766}{614­-292-­5766} and 24 hour emergency help is also available through the 24/7 National Suicide Prevention Hotline at \href{tel:­800­2738255}{1-­800­-273-TALK}or at \href{http://suicidepreventionlifeline.org/}{suicidepreventionlifeline.org}.
+
+
+\begin{itemize}
+      \tightlist
+      \item[$-$] \textbf{Safe University Escort Service}
+      \item[$-$] \textbf{Website:} \href{https://housing.osu.edu/living-well/safety1/}{{https://housing.osu.edu/living-well/safety1/}}
+      \item[$-$] \textbf{Phone:} \href{tel:6142923322}{614-292-3322}
+\end{itemize}
+
+\subsection{Trigger Language Warning}
+
+Some content of this course may involve media that may be triggering to some students due to descriptions of and/or scenes depicting acts of violence, acts of war, or sexual violence and its aftermath. If needed, please take care of yourself while watching/reading this material (leaving classroom to take a water/bathroom break, debriefing with a friend, contacting a Sexual Violence Support Coordinator at \href{tel:6142921111}{614-292-1111}, or Counseling and Consultation Services at \href{tel:6142925766}{614-292-5766}, and contacting the instructor if needed). Expectations are that we all will be respectful of our classmates while consuming this media and that we will create a safe space for each other. Failure to show respect to each other may result in dismissal from the class.
+
+\subsection{General Class and Studio Policies}
+
+Professional courtesy and sensitivity are especially important with respect to individuals and topics dealing with differences of race, culture, religion, politics, sexual orientation, gender identity and expression, and nationalities. Class rosters are provided to the instructor and may include the student's legal name unless changed via the University Name Change policy. We will gladly honor your request to address you by another name or gender pronoun. Please advise us of this early in the semester so that we may make appropriate changes to our records.
+
+Tolerance. Required and elective art courses contain content that can include some language, imagery, or dialogue that may be challenging or offend some students. While no student is required to participate in a presentation or discussion of art or design that offends them, it is important to remain open-minded and participate in a cooperative and respectful manner. Art can often challenge our ideas and experiences, and can lead us into some lively discussion, concepts and imagery. Differences (in ideas, perspectives, experiences, etc.) can be positive, productive and educational, challenging and provocative, so please, engage in the exchange of ideas respectfully. Please see us with your concerns as soon as possible.
+
+Please contact us in advance (during the first week of class or as soon as circumstances develop during the term) if you have circumstances that may affect your performance and ability to fulfill your responsibilities in this course.
+
+\subsection{Data Responsibility}
+
+Back up your work. Inevitably, computers crash. Sometimes they get stolen. There are measures that you can take to prevent significant loss of data. These include Cloud back-ups, external devices or disc storage.
+
+\end{document}
