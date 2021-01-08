@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 html {
+    /* background: url("../img/2.png"); */
+    background-image: linear-gradient(180deg, #468dff 10%,#e1ffea 60%, #fff8f560 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
     height: 100%;
 }
 
 body {
     margin: 0;
-    /* padding: 0; */
-    /* background: url("../img/2.png"); */
-    background-image: linear-gradient(180deg, #468dff 10% ,#ecfff2 60%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    padding: 0;
+    
     width: 100%;
     height: 100%;
     font-family: 'Source Sans Pro', sans-serif;
@@ -90,7 +91,7 @@ h2.centFocus {
 }
 
 h2.centFocus:hover {
-    color: #ff00ff;
+    color: #fff;
     cursor: pointer;
 }
 
@@ -192,7 +193,7 @@ h4 {
 }
 
 .hiHybrid {
-    background: #ffbca2;
+    background: #ffbca2d2;
     /* color: #fff; */
 }
 
@@ -201,19 +202,20 @@ h4 {
 }
 
 .hiExer {
-    background: #f1cfff;
+    background: #edbfffd2;
 
 }
 
 
 .hiTask {
     background: #ffc9b4;
+    
     /* color:red; */
 }
 
 .hiProj {
     /* background: #9896ff; */
-    background: #fdff97;
+    background: #a3c8ffd2;
 }
 
 .hiExtend {
@@ -284,7 +286,7 @@ section {
 
 #schedule a {
     background: transparent;
-    border-bottom: 2px solid rgb(169, 255, 180);
+    border-bottom: 3px solid #468dff9f;
     /* background: #e9ffac81; */
     transition: all 0.5s ease-in-out;
 }
@@ -393,7 +395,7 @@ tr {
 
 
 .tg-0lax {
-    background: #ffffffad;
+    background: #ffffffa1;
 }
 
 .tbFund {
