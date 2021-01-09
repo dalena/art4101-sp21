@@ -1,10 +1,5 @@
 $(document).ready(function () {
 
-  var hash = window.location.hash;
-  if (hash && $(hash).length) {
-    openSection(hash);
-  }
-
   $.get('date.json', function (data) {
     $('#updated_date').html(data.date);
   });
