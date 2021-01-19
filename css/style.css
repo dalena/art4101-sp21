@@ -354,6 +354,10 @@ table {
     width: 100%;
 }
 
+tr > td.opFinish{
+    opacity: 50%;
+    /* background: #6b06745d; */
+}
 tr {
     vertical-align: top;
 }
