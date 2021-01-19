@@ -216,6 +216,13 @@ h4 {
     /* color: #fff; */
 }
 
+.hiChal {
+    background: #ff7fd4a8;
+}
+h4.hiChal {
+    text-align: center;
+}
+
 .hiExtend {
     /* background: #9896ff; */
     background: #a1ffffa8;

@@ -20,6 +20,10 @@ $(document).ready(function () {
     var selected = $(this).attr('id');
     openSection('#exercises', selected);
   });
+  $('#challenges h3').click(function () {
+    var selected = $(this).attr('id');
+    openSection('#challenges', selected);
+  });
 
 });
 
