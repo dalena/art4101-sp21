@@ -219,6 +219,7 @@ h4 {
 .hiChal {
     background: #ff7fd4a8;
 }
+
 h4.hiChal {
     text-align: center;
 }
@@ -303,7 +304,7 @@ section {
     /*optional centering of image*/
 }
 
-h5.sWorks  {
+h5.sWorks {
     text-align: center;
 }
 
@@ -361,10 +362,11 @@ table {
     width: 100%;
 }
 
-tr > td.opFinish{
+tr>td.opFinish {
     opacity: 50%;
     /* background: #6b06745d; */
 }
+
 tr {
     vertical-align: top;
 }
@@ -635,7 +637,12 @@ pre {
     justify-content: center;
 }
 
-
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 10px; */
+    padding-top:2em;
+}
 
 
 @media screen and (max-width: 800px) {
