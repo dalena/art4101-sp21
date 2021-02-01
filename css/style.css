@@ -555,11 +555,24 @@ pre {
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: 700px; */
-    gap: 50px;
-    padding-top:2em;
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 2em;
+    align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.grid>div {
+    flex: auto;
+    height: 500px;
+    min-width: 200px;
+
+}
+
+.grid>div img{
+max-height: 400px;
+
 }
 
 
