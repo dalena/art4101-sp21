@@ -559,8 +559,8 @@ pre {
     flex-flow: row wrap;
     padding-top: 2em;
     align-items: center;
-  justify-content: center;
-  text-align: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .grid>div {
@@ -570,8 +570,12 @@ pre {
 
 }
 
-.grid>div img{
-max-height: 400px;
+.sWorksPrint {
+    display: none;
+}
+
+.grid>div img {
+    max-height: 400px;
 
 }
 
@@ -659,6 +663,7 @@ max-height: 400px;
 
 
 
+
 }
 
 @media screen and (max-width: 1110px) {
@@ -733,18 +738,46 @@ max-height: 400px;
         line-height: 1em
     }
 
-    .centFocus {
+    h2.centFocus {
         margin-top: 0;
+        margin-bottom: 1em;
     }
 
-    a,
-    button {
-        background: none;
-        border: none;
+    .toggle {
+        display: block !important;
+
+    }
+
+    .toggle img {
+        max-width: 400px;
+        text-align: center;
     }
 
     .headingText {
         justify-content: center;
+    }
+
+    .noPrint {
+        display: none;
+    }
+
+    .sWorksPrint {
+        display: block;
+        text-align: center;
+    }
+
+    tr>td.opFinish {
+        opacity: 1;
+        background: none;
+    }
+
+    #schedule .tg td {
+        border: solid #000000 .5px;
+        font-size: 13px;
+    }
+
+    #schedule .tg th {
+        border: solid #000000 .5px;
     }
 
     .print {
