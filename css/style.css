@@ -575,7 +575,7 @@ pre {
 }
 
 .grid>div img {
-    max-height: 400px;
+    max-height: 350px;
 
 }
 
@@ -743,9 +743,10 @@ pre {
         margin-bottom: 1em;
     }
 
-    .toggle {
+    .toggle
+    {
         display: block !important;
-
+        
     }
 
     .toggle img {
