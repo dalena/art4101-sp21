@@ -316,10 +316,6 @@ img:hover {
 
 
 @media screen and (max-width: 800px) {
-    .grid {
-      
-
-    }
 
 
 }
@@ -337,6 +333,9 @@ img:hover {
         padding-right: 2em;
         display: flex;
         flex-direction: column;
+    }
+    .v00 {
+        padding: 0;
     }
 
 }
