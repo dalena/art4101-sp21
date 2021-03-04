@@ -565,7 +565,7 @@ pre {
 
 .grid>div {
     flex: auto;
-    height: 500px;
+    height: 400px;
     min-width: 200px;
 
 }
@@ -575,7 +575,7 @@ pre {
 }
 
 .grid>div img {
-    max-height: 350px;
+    max-height: 300px;
 
 }
 
